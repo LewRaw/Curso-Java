@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Problema1 {
+	static Scanner s = new Scanner(System.in);
+	public static void main(String[] args) {
+		System.out.println("Informe o lado 1 do triangulo");
+		double ladoA = s.nextDouble();
+		
+		System.out.println("Informe o lado 1 do triangulo");
+		double ladoB = s.nextDouble();
+	}
+
+}

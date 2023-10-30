@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+import entities.Triangle;
+
+import java.text.DecimalFormat;
+public class Problema1 {
+	static Scanner s = new Scanner(System.in);
+	static DecimalFormat df = new DecimalFormat("####.####");
+	public static void main(String[] args) {
+		Triangle x = new Triangle();
+		Triangle y = new Triangle();
+		
+		System.out.println("Informe 3 lados do triangulo 1");
+		x.ladoA 	= s.nextDouble();
+		x.ladoB 	= s.nextDouble();
+		x.ladoC 	= s.nextDouble();
+		
+		System.out.println("Informe 3 lados do triangulo 2");
+		y.ladoA 	= s.nextDouble();
+		y.ladoB 	= s.nextDouble();
+		y.ladoC 	= s.nextDouble();
+		
+		double p1 = (x.ladoA + x.ladoB + x.ladoC) / 2;
+		double p2 = (y.ladoA + y.ladoB + y.ladoC) / 2;
+		double area1 = Math.sqrt(p1*(p1-x.ladoA)*(p1-x.ladoB)*(p1-x.ladoC));
+		double area2 = Math.sqrt(p2*(p2-y.ladoA)*(p2-y.ladoB)*(p2-y.ladoC));
+		System.out.println("Area do Triangulo 1: "+df.format(area1));
+		System.out.println("Area do Triangulo 2: "+ df.format(area2));
+		System.out.println("Maior area: "+((area1 > area2)?"Triangulo 1":"Triangulo 2"));
+	}
+
+}

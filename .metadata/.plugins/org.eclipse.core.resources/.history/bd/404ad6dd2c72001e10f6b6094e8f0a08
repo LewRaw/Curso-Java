@@ -1,0 +1,21 @@
+package program;
+
+import java.util.Scanner;
+
+import entities.Rectangle;
+
+public class Program {
+	static public Scanner s = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		Rectangle rectangle = new Rectangle();
+		System.out.println("Enter rectangle width and height: ");
+		rectangle.width = s.nextDouble();
+		rectangle.height = s.nextDouble();
+		
+		System.out.println("Area = "+rectangle.Area());
+		System.out.println("Perimeter = "+rectangle.Perimeter());
+		System.out.println("Diagonal = "+rectangle.Diagonal());
+	}
+
+}

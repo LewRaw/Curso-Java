@@ -1,0 +1,9 @@
+INDEX VERSION 1.134+C:\Users\yMode\Documents\GitHub\Curso-Java\.metadata\.plugins\org.eclipse.jdt.core
+1919739486.index
+4123001533.index
+33952465.index
+2242573874.index
+3448153324.index
+3949311972.index
+2623702898.index
+1865797976.index
