@@ -1,7 +1,0 @@
-package entities;
-
-public class Trimester {
-	public double t1;
-	public double t2;
-	public double t3;
-}

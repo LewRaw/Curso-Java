@@ -1,7 +1,0 @@
-package entties;
-
-public class Triangle {
-
-		public double ladoA,ladoB,ladoC;;	
-
-}
