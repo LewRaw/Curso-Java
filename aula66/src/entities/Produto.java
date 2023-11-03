@@ -18,6 +18,12 @@ public class Produto {
 	}
 	
 	public String toString() {
-		return name + ", $" + String.format("%.2f",price) + ", " + quantity + ", unitis, Total $" + String.format("%.2f",totalValueInStock());
+		return name 
+				+ ", $" 
+				+ String.format("%.2f",price) 
+				+ ", " 
+				+ quantity 
+				+ ", unitis, Total $" 
+				+ String.format("%.2f",totalValueInStock());
 	}
 }
